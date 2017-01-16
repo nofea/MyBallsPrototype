@@ -34,9 +34,9 @@ public class Player : MonoBehaviour
             velocity.y = 0;
         }
 
-        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
 
-        if (Input.GetKeyDown(KeyCode.Space) && controller.collisions.below)
+        if (Input.GetButton("Jump") && controller.collisions.below)
         {
             velocity.y = jumpVelocity;
         }
