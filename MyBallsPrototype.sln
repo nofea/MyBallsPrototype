@@ -1,7 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{AAFC9A9C-7255-36F4-80F9-30FC36F3E25A}") = "MyBallsPrototype", "Assembly-CSharp.csproj", "{77CCC089-B788-08DB-6072-897F1579D871}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBallsPrototype", "MyBallsPrototype.csproj", "{D1C46AA7-21E4-DBE3-1708-BA0CF18BC4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77CCC089-B788-08DB-6072-897F1579D871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77CCC089-B788-08DB-6072-897F1579D871}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77CCC089-B788-08DB-6072-897F1579D871}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77CCC089-B788-08DB-6072-897F1579D871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C46AA7-21E4-DBE3-1708-BA0CF18BC4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C46AA7-21E4-DBE3-1708-BA0CF18BC4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C46AA7-21E4-DBE3-1708-BA0CF18BC4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C46AA7-21E4-DBE3-1708-BA0CF18BC4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
